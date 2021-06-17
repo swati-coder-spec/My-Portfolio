@@ -4,7 +4,7 @@ const Footer =()=>{
 return(
     <>
         <footer className="w-100 text-center">
-            <p>© {curdate} Swati Gupta | Made From Heart And Brain</p>
+            <p>© {curdate} Swati Gupta</p>
         </footer>
     </>
 )

@@ -11,11 +11,11 @@ const Body = () => {
     return (
         <>
             <Switch>
-                <Route path="/skills" component={Skills} />
-                <Route path="/contact" component={Contact} />
-                <Route path="/about" component={About} />
-                <Route path="/" component={Home} />
-                <Redirect to="/" />
+                <Route path="/My-Portfolio/skills" component={Skills} />
+                <Route path="/My-Portfolio/contact" component={Contact} />
+                <Route path="/My-Portfolio/about" component={About} />
+                <Route path="/My-Portfolio" component={Home} />
+                <Redirect to="/My-Portfolio" />
             </Switch>
         </>
     )

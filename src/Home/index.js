@@ -13,7 +13,7 @@ const Home = () => {
                                     <h1> Grow Your Business With <br/><strong className="brand-name">Swati Gupta</strong> </h1>
                                     <h2 className="my-3">Welcome to my Website, I am a Frontend Web Developer who can give your Website an Authentic and Amazing Outlook</h2>
                                     <div className="mt-3 btn_div">
-                                        <Link to="/skills" className="btn-get-started get_started_btn">Get Started</Link>
+                                        <Link to="/My-Portfolio/skills" className="btn-get-started get_started_btn">Get Started</Link>
                                     </div>
                                 </div>
                                 <div className="col-sm-10 col-md-12 col-lg-6 order-1 order-lg-2 header-img">
