@@ -1,6 +1,6 @@
 import Body from "./Body";
-import Navbar from './Navbar';
-import Footer from './Footer';
+import Navbar from '../src/Navbar';
+import Footer from './Footer/Footer';
 
 const App=()=>{
 return(

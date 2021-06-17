@@ -1,0 +1,6 @@
+/* responsive code */
+@media(max-width:425px){
+    footer p{
+        font-size: .8rem;
+    }
+}

@@ -45,3 +45,43 @@
     }
 }
 /* home page styling ends here */
+
+/* responsive styling starts here */
+@media(max-width:425px){
+    .header_div{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #header{
+        margin-top: 10px;
+    }
+    #header h1{
+        font-size: 19px;
+        text-align: center;
+    }
+    #header h2{
+        font-size: 13px;
+        text-align: center;
+    }
+    #header .get_started_btn{
+        font-size: 13px;
+        padding: 5px 17px;
+    }
+    #header .header-img{
+        text-align: center;
+    }
+    #header .header-img img{
+        height: 250px;
+        width: 250px;
+    }
+    .info_div{
+        padding: 30px 10px 10px 10px !important;
+    }
+    .info_div h2{
+        margin: 2px 0px 2px 0px !important;
+        padding: 0px 15px 0px 15px ;
+    }
+    .btn_div{
+        margin: auto;
+    }
+}

@@ -1,0 +1,36 @@
+/* navbar styling starts here */
+.row>*{
+    padding: 0px;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+    padding: 0px !important;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar{
+    background-color: #fff !important;
+}
+.navbar-brand{
+    font-size: 1.9rem !important;
+    color: #3498db !important;
+    margin-right: 0px;
+}
+.navbar a{
+    font-size: 1.3rem;
+}
+.active{
+    font-weight: bold;
+    border-bottom: 1px solid #3498db;
+}
+.navbar a:hover{
+    color: #3498db !important;
+}
+/* navbar styling ends here */
+
+/* responsive styling */
+@media(max-width:425px){
+    .navbar-brand{
+        font-size: 1.66rem !important;
+    }
+}
