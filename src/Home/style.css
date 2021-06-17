@@ -47,7 +47,7 @@
 /* home page styling ends here */
 
 /* responsive styling starts here */
-@media(max-width:425px){
+@media(max-width:500px){
     .header_div{
         display: flex;
         flex-direction: column-reverse;

@@ -1,5 +1,4 @@
 import img from "../images/about/Customer Support/custmer support.svg";
-import "./style.css";
 const About = () => {
     return (
         <>
