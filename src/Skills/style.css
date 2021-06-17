@@ -1,0 +1,24 @@
+/* service page css starts here */
+.skills_card{
+    text-align: center;
+}
+.card_img{    
+    /* height: 320px; */
+    width: 200px;
+    /* border-radius: 50%; */
+}
+.card_img_div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 200px;
+}
+.skills_card .card_info{
+    margin-top: 20px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}.skills_card .card_info p{
+    font-size: 1rem;
+}
+/* service page css ends here */
